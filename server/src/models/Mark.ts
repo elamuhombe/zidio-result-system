@@ -20,4 +20,4 @@ const MarkSchema: Schema<IMark> = new Schema({
   
   // Create and export the model for Marks
   const Mark = model<IMark>("Mark", MarkSchema);
-  export default Mark;
+  export  {Mark, IMark};
